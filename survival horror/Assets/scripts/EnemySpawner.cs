@@ -21,7 +21,7 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log(EnemyHp.killCount);
+      //  Debug.Log(EnemyHp.killCount);
         spawnRate--;
         
      
