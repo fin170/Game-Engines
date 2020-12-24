@@ -9,7 +9,7 @@ public class EnemyHp : MonoBehaviour
     public int currentHealth;
     public HealthBar healthBar;
     public static int killCount=0;
-    public types t;
+   
 
 
     Enemy_Controller type;
@@ -50,11 +50,5 @@ if(currentHealth<1)
         healthBar.SetHealth(currentHealth);
     }
   
-    public enum types
-    {
-        melee,
-        tank,
-        soldier,
-        boss
-    }
+    
 }
